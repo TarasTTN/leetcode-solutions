@@ -25,3 +25,14 @@ leetcode-solutions/
 │   ├── 0175-combine-two-tables.sql
 │   └── README.md
 └── ...
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/TarasTTN/leetcode-solutions/tree/master/0001-two-sum) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/TarasTTN/leetcode-solutions/tree/master/0001-two-sum) |
+<!---LeetCode Topics End-->
