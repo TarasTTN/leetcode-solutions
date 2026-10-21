@@ -14,13 +14,11 @@ jobs:
         with:
           token: ${{ secrets.MY_ACTIVITY_TOKEN }}
 
-      - name: Create and Close Issue
+      - name: Create Issue
         env:
           GH_TOKEN: ${{ secrets.MY_ACTIVITY_TOKEN }}
         run: |
-          ISSUE_URL=$(gh issue create --title "Maintenance task: $(date +'%Y-%m-%d')" --body "Automated system check.")
-          echo "Created $ISSUE_URL"
-          gh issue close "$ISSUE_URL" --comment "Completed."
+          gh issue create --title "Daily algorithm practice: $(date +'%Y-%m-%d')" --body "Tracking daily tasks and progress."
 
       - name: Create Branch, Commit and PR
         env:
@@ -29,13 +27,12 @@ jobs:
           git config user.name "TarasTTN"
           git config user.email "pchackukla@gmail.com"
           
-          BRANCH_NAME="maintenance-$(date +'%s')"
+          BRANCH_NAME="daily-sync-$(date +'%s')"
           git checkout -b "$BRANCH_NAME"
           
           echo "Automated sync at $(date)" >> activity.log
           git add activity.log
-          git commit -m "chore: automated daily ping [skip ci]"
+          git commit -m "chore: record daily progress [skip ci]"
           git push origin "$BRANCH_NAME"
           
-          PR_URL=$(gh pr create --title "Automated chore: $(date +'%Y-%m-%d')" --body "Auto PR to trigger metrics" --base main --head "$BRANCH_NAME")
-          gh pr merge "$PR_URL" --squash --delete-branch
+          gh pr create --title "Sync daily progress: $(date +'%Y-%m-%d')" --body "Automated daily PR" --base main --head "$BRANCH_NAME"
