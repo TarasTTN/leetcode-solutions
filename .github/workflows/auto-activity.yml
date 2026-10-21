@@ -8,36 +8,34 @@ on:
 jobs:
   activity:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pull-requests: write
-      issues: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.MY_ACTIVITY_TOKEN }}
 
       - name: Create and Close Issue
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.MY_ACTIVITY_TOKEN }}
         run: |
-          ISSUE_URL=$(gh issue create --title "Automated daily maintenance: $(date +'%Y-%m-%d')" --body "Automated system check.")
+          ISSUE_URL=$(gh issue create --title "Maintenance task: $(date +'%Y-%m-%d')" --body "Automated system check.")
           echo "Created $ISSUE_URL"
-          gh issue close "$ISSUE_URL" --comment "Task completed."
+          gh issue close "$ISSUE_URL" --comment "Completed."
 
       - name: Create Branch, Commit and PR
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.MY_ACTIVITY_TOKEN }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
+          git config user.name "TarasTTN"
+          git config user.email "pchackukla@gmail.com"
+          
           BRANCH_NAME="maintenance-$(date +'%s')"
           git checkout -b "$BRANCH_NAME"
-
+          
           echo "Automated sync at $(date)" >> activity.log
           git add activity.log
           git commit -m "chore: automated daily ping [skip ci]"
           git push origin "$BRANCH_NAME"
-
+          
           PR_URL=$(gh pr create --title "Automated chore: $(date +'%Y-%m-%d')" --body "Auto PR to trigger metrics" --base main --head "$BRANCH_NAME")
           gh pr merge "$PR_URL" --squash --delete-branch
