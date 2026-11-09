@@ -71,6 +71,7 @@ leetcode-solutions/
 | [0012-integer-to-roman](https://github.com/TarasTTN/leetcode-solutions/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/TarasTTN/leetcode-solutions/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/TarasTTN/leetcode-solutions/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0020-valid-parentheses](https://github.com/TarasTTN/leetcode-solutions/tree/master/0020-valid-parentheses) |
 ## Sliding Window
 |  |
 | ------- |
@@ -115,4 +116,12 @@ leetcode-solutions/
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/TarasTTN/leetcode-solutions/tree/master/0017-letter-combinations-of-a-phone-number) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/TarasTTN/leetcode-solutions/tree/master/0020-valid-parentheses) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/TarasTTN/leetcode-solutions/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
