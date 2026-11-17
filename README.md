@@ -46,6 +46,7 @@ leetcode-solutions/
 | [0037-sudoku-solver](https://github.com/TarasTTN/leetcode-solutions/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/TarasTTN/leetcode-solutions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/TarasTTN/leetcode-solutions/tree/master/0040-combination-sum-ii) |
+| [0041-first-missing-positive](https://github.com/TarasTTN/leetcode-solutions/tree/master/0041-first-missing-positive) |
 ## Hash Table
 |  |
 | ------- |
@@ -57,6 +58,7 @@ leetcode-solutions/
 | [0030-substring-with-concatenation-of-all-words](https://github.com/TarasTTN/leetcode-solutions/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0036-valid-sudoku](https://github.com/TarasTTN/leetcode-solutions/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/TarasTTN/leetcode-solutions/tree/master/0037-sudoku-solver) |
+| [0041-first-missing-positive](https://github.com/TarasTTN/leetcode-solutions/tree/master/0041-first-missing-positive) |
 ## Linked List
 |  |
 | ------- |
