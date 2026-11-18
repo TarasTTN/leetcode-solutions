@@ -48,6 +48,7 @@ leetcode-solutions/
 | [0040-combination-sum-ii](https://github.com/TarasTTN/leetcode-solutions/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/TarasTTN/leetcode-solutions/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/TarasTTN/leetcode-solutions/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/TarasTTN/leetcode-solutions/tree/master/0045-jump-game-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -145,6 +146,7 @@ leetcode-solutions/
 | [0032-longest-valid-parentheses](https://github.com/TarasTTN/leetcode-solutions/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/TarasTTN/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0044-wildcard-matching](https://github.com/TarasTTN/leetcode-solutions/tree/master/0044-wildcard-matching) |
+| [0045-jump-game-ii](https://github.com/TarasTTN/leetcode-solutions/tree/master/0045-jump-game-ii) |
 ## Manacher
 |  |
 | ------- |
@@ -154,6 +156,7 @@ leetcode-solutions/
 | ------- |
 | [0011-container-with-most-water](https://github.com/TarasTTN/leetcode-solutions/tree/master/0011-container-with-most-water) |
 | [0044-wildcard-matching](https://github.com/TarasTTN/leetcode-solutions/tree/master/0044-wildcard-matching) |
+| [0045-jump-game-ii](https://github.com/TarasTTN/leetcode-solutions/tree/master/0045-jump-game-ii) |
 ## Sorting
 |  |
 | ------- |
