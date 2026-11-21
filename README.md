@@ -56,6 +56,7 @@ leetcode-solutions/
 | [0051-n-queens](https://github.com/TarasTTN/leetcode-solutions/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/TarasTTN/leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/TarasTTN/leetcode-solutions/tree/master/0054-spiral-matrix) |
+| [0055-jump-game](https://github.com/TarasTTN/leetcode-solutions/tree/master/0055-jump-game) |
 ## Hash Table
 |  |
 | ------- |
@@ -161,6 +162,7 @@ leetcode-solutions/
 | [0044-wildcard-matching](https://github.com/TarasTTN/leetcode-solutions/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/TarasTTN/leetcode-solutions/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/TarasTTN/leetcode-solutions/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/TarasTTN/leetcode-solutions/tree/master/0055-jump-game) |
 ## Manacher
 |  |
 | ------- |
@@ -171,6 +173,7 @@ leetcode-solutions/
 | [0011-container-with-most-water](https://github.com/TarasTTN/leetcode-solutions/tree/master/0011-container-with-most-water) |
 | [0044-wildcard-matching](https://github.com/TarasTTN/leetcode-solutions/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/TarasTTN/leetcode-solutions/tree/master/0045-jump-game-ii) |
+| [0055-jump-game](https://github.com/TarasTTN/leetcode-solutions/tree/master/0055-jump-game) |
 ## Sorting
 |  |
 | ------- |
