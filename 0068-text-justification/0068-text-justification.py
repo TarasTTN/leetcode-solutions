@@ -11,3 +11,4 @@ class Solution:
             length += len(w)
         res.append(' '.join(line).ljust(maxWidth))
         return res
+        
